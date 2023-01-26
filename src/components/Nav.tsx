@@ -3,7 +3,7 @@ import { useState } from "react";
 import MobileNav from "./MobileNav";
 
 export default function Nav() {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
   return (
     <div>
       <nav className="flex justify-between p-6 md:px-9 py-12 xl:py-[60px] xl:px-[170px]">
