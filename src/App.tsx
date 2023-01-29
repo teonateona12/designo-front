@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 function App() {
   const [data, setData] = useState<any>([]);
@@ -23,6 +24,7 @@ function App() {
     <div>
       <Nav />
       <Home />
+      <Footer />
     </div>
   );
 }
