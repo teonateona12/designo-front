@@ -5,7 +5,10 @@ import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Design from "./components/Design";
-import { Route, Routes, useParams } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import About from "./components/About";
+import Location from "./components/Location";
+import Contact from "./components/Contact";
 
 function App() {
   const [data, setData] = useState<any>([]);
@@ -26,6 +29,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:id" element={<Design data={data} />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/location" element={<Location />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

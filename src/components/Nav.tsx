@@ -1,9 +1,10 @@
 import React from "react";
 import { useState } from "react";
 import MobileNav from "./MobileNav";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
-  const [nav, setNav] = useState(true);
+  const [nav, setNav] = useState<Boolean>(true);
   return (
     <div>
       <nav className="flex justify-between p-6 md:px-9 py-12 xl:py-[60px] xl:px-[170px]">
@@ -11,7 +12,9 @@ export default function Nav() {
           <div>
             <img src="http://localhost:5000/designo/logo.png" />
           </div>
-          <h1 className="text-[#333136] tracking-[5px] font-bold">DESIGNO</h1>
+          <Link to="/">
+            <h1 className="text-[#333136] tracking-[5px] font-bold">DESIGNO</h1>
+          </Link>
         </div>
         <div className="md:hidden">
           <img
@@ -22,9 +25,15 @@ export default function Nav() {
           />
         </div>
         <div className=" gap-6 hidden md:flex">
-          <p className="tracking-[2px]">OUR COMPANY</p>
-          <p className="tracking-[2px]">LOCATIONS</p>
-          <p className="tracking-[2px]">CONTACT</p>
+          <Link to="/about">
+            <p className="tracking-[2px]">OUR COMPANY</p>
+          </Link>
+          <Link to="/location">
+            <p className="tracking-[2px]">LOCATIONS</p>
+          </Link>
+          <Link to="/contact">
+            <p className="tracking-[2px]">CONTACT</p>
+          </Link>
         </div>
       </nav>
       {!nav && <MobileNav />}

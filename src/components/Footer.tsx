@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -13,9 +14,12 @@ export default function Footer() {
             how our expertise can help your business grow.
           </p>
         </div>
-        <button className="text-[#333136] bg-white p-3 rounded-lg flex m-auto">
-          GET IN TOUCH
-        </button>
+        <Link to="/contact">
+          {" "}
+          <button className="text-[#333136] bg-white p-3 rounded-lg flex m-auto">
+            GET IN TOUCH
+          </button>
+        </Link>
       </div>
       <footer className="bg-[#1D1C1E] flex flex-col gap-6 pt-[50%] pb-10 -mt-[30%] md:px-10 md:-mt-[20%] md:pt-[30%] xl:px-[170px]">
         <div className="flex flex-col gap-6 md:flex-row md:justify-between">
@@ -23,14 +27,23 @@ export default function Footer() {
             <div>
               <img src="http://localhost:5000/designo/logo.png" />
             </div>
-            <h1 className="text-white tracking-[5px] font-bold text-2xl">
-              DESIGNO
-            </h1>
+            <Link to="/">
+              {" "}
+              <h1 className="text-white tracking-[5px] font-bold text-2xl">
+                DESIGNO
+              </h1>
+            </Link>
           </div>
           <div className="flex flex-col gap-[32px] md:flex-row">
-            <p className="text-white text-center">OUR COMPANY</p>
-            <p className="text-white text-center">LOCATIONS</p>
-            <p className="text-white text-center">CONTACT</p>
+            <Link to="/about">
+              <p className="text-white text-center">OUR COMPANY</p>
+            </Link>
+            <Link to="/location">
+              <p className="text-white text-center">LOCATIONS</p>
+            </Link>
+            <Link to="/contact">
+              <p className="text-white text-center">CONTACT</p>
+            </Link>
           </div>
         </div>
         <div className="md:flex md:justify-between md:mt-10">
