@@ -1,4 +1,5 @@
 import React from "react";
+import Countries from "./Countries";
 
 export default function About() {
   return (
@@ -52,6 +53,7 @@ export default function About() {
           </p>
         </div>
       </div>
+      <Countries />
     </div>
   );
 }
