@@ -3,14 +3,14 @@ import Countries from "./Countries";
 
 export default function About() {
   return (
-    <div>
+    <div className="xl:px-[170px]">
       <div className="xl:flex">
         <img
-          className="md:hidden"
+          className="md:hidden w-full"
           src="http://localhost:5000/designo/about1.png"
         />
         <img
-          className="hidden md:block md:w-full xl:order-2"
+          className="hidden md:block md:w-full xl:order-2 xl:w-[50%]"
           src="http://localhost:5000/designo/about1tab.png"
         />
         <div className="bg-[#E7816B] pt-16 pb-10 md:px-[20%] xl:order-1 xl:px-10 xl:py-20">
@@ -28,11 +28,11 @@ export default function About() {
       </div>
       <div className="xl:flex xl:mt-[10%]">
         <img
-          className="md:hidden"
+          className="md:hidden w-full"
           src="http://localhost:5000/designo/about2.png"
         />
         <img
-          className="hidden md:block md:w-full"
+          className="hidden md:block md:w-full  xl:w-[50%]"
           src="http://localhost:5000/designo/about2tab.png"
         />
         <div className="bg-[#FDF3F0] p-8 md:px-[20%] xl:px-10 xl:py-20">
@@ -54,6 +54,32 @@ export default function About() {
         </div>
       </div>
       <Countries />
+      <div className="xl:flex xl:mb-[20%]">
+        <img
+          className="md:hidden w-full"
+          src="http://localhost:5000/designo/about3.png"
+        />
+        <img
+          className="hidden md:block md:w-full xl:order-2  xl:w-[50%]"
+          src="http://localhost:5000/designo/about3tab.png"
+        />
+        <div className="bg-[#FDF3F0] p-8 md:px-[20%] xl:px-10 xl:py-20 xl:order-1">
+          <h1 className="text-[#E7816B] text-3xl font-normal text-center xl:text-left">
+            The real deal
+          </h1>
+          <p className="text-center my-5 color-[#333136] text-sm xl:text-left">
+            As strategic partners in our clients’ businesses, we are ready to
+            take on any challenge as our own. Solving real problems require
+            empathy and collaboration, and we strive to bring a fresh
+            perspective to every opportunity. We make design and technology more
+            accessible and give you tools to measure success. <br />
+            <br />
+            We are visual storytellers in appealing and captivating ways. By
+            combining business and marketing strategies, we inspire audiences to
+            take action and drive real results.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
