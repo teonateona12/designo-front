@@ -9,13 +9,16 @@ import { Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Location from "./components/Location";
 import Contact from "./components/Contact";
+import { Data } from "./components/types";
 
 function App() {
-  const [data, setData] = useState<any>([]);
+  const [data, setData] = useState<Data[]>([]);
   useEffect(() => {
     const getDesigno = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/design");
+        const response = await axios.get(
+          "https://designo-api.onrender.com/api/design"
+        );
         setData(response.data);
       } catch (error) {
         console.log(error);
