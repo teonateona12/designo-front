@@ -21,7 +21,9 @@ const Design: React.FC<any> = ({ data }) => {
       <div className="m-[30px] xl:mx-[170px] xl:flex xl:flex-wrap xl:gap-10 xl:m-[10%]">
         {result.items.map((item: Items) => (
           <div className="bg-[#FDF3F0] mt-10 rounded-2xl pb-10 md:flex md:pb-0 xl:block xl:w-[30%]">
-            <img src={`http://localhost:5000/designo/${item.image}`} />
+            <img
+              src={`https://designo-api.onrender.com/designo/${item.image}`}
+            />
             <div className="md:m-auto xl:m-0">
               <h1 className="text-center mb-3 mt-10  text-[#E7816B] font-medium tracking-[5px]">
                 {item.name}

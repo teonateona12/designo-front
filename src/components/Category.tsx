@@ -7,15 +7,15 @@ export default function Category() {
       <div className="relative">
         <img
           className="rounded-2xl w-full md:hidden"
-          src="http://localhost:5000/designo/web.jpg"
+          src="https://designo-api.onrender.com/designo/web.jpg"
         />
         <img
           className="rounded-2xl w-full hidden md:block xl:hidden"
-          src="http://localhost:5000/designo/web-tab.jpg"
+          src="https://designo-api.onrender.com/designo/web-tab.jpg"
         />
         <img
           className="rounded-2xl hidden xl:block xl:w-full"
-          src="http://localhost:5000/designo/web-des.jpg"
+          src="https://designo-api.onrender.com/designo/web-des.jpg"
         />
         <div className="absolute top-[50%] flex flex-col left-[30%]">
           <Link to="/Web design">
@@ -26,7 +26,7 @@ export default function Category() {
 
           <div className="flex gap-2 ">
             <p className="text-white tracking-[2px]">VIEW PROJECTS</p>
-            <img src="http://localhost:5000/designo/icon.svg" />
+            <img src="https://designo-api.onrender.com/designo/icon.svg" />
           </div>
         </div>
       </div>
@@ -34,15 +34,15 @@ export default function Category() {
         <div className="relative">
           <img
             className="rounded-2xl w-full md:hidden"
-            src="http://localhost:5000/designo/app.jpg"
+            src="https://designo-api.onrender.com/designo/app.jpg"
           />
           <img
             className="rounded-2xl w-full hidden md:block xl:hidden"
-            src="http://localhost:5000/designo/app-tab.jpg"
+            src="https://designo-api.onrender.com/designo/app-tab.jpg"
           />
           <img
             className="rounded-2xl hidden xl:block xl:w-full"
-            src="http://localhost:5000/designo/app-des.jpg"
+            src="https://designo-api.onrender.com/designo/app-des.jpg"
           />
           <div className="absolute top-[50%] flex flex-col left-[30%]">
             <Link to="/App design">
@@ -53,22 +53,22 @@ export default function Category() {
 
             <div className="flex gap-2 justify-center">
               <p className="text-white tracking-[2px]">VIEW PROJECTS</p>
-              <img src="http://localhost:5000/designo/icon.svg" />
+              <img src="https://designo-api.onrender.com/designo/icon.svg" />
             </div>
           </div>
         </div>
         <div className="relative">
           <img
             className="rounded-2xl w-full md:hidden"
-            src="http://localhost:5000/designo/graphic.jpg"
+            src="https://designo-api.onrender.com/designo/graphic.jpg"
           />
           <img
             className="rounded-2xl w-full hidden md:block xl:hidden"
-            src="http://localhost:5000/designo/graphic-tab.jpg"
+            src="https://designo-api.onrender.com/designo/graphic-tab.jpg"
           />
           <img
             className="rounded-2xl hidden xl:block xl:w-full"
-            src="http://localhost:5000/designo/graphic-des.jpg"
+            src="https://designo-api.onrender.com/designo/graphic-des.jpg"
           />
           <div className="absolute top-[50%] flex flex-col left-[30%]">
             <Link to="/Graphic design">
@@ -79,7 +79,7 @@ export default function Category() {
 
             <div className="flex gap-2 justify-center">
               <p className="text-white tracking-[2px]">VIEW PROJECTS</p>
-              <img src="http://localhost:5000/designo/icon.svg" />
+              <img src="https://designo-api.onrender.com/designo/icon.svg" />
             </div>
           </div>
         </div>

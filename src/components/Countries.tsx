@@ -4,7 +4,7 @@ export default function Countries() {
   return (
     <div className="my-[30%] flex flex-col gap-16 md:my-[15%] xl:flex-row">
       <div className="flex flex-col m-auto w-[50%] gap-3 md:w-[30%]">
-        <img src="http://localhost:5000/designo/loc1.png" />
+        <img src="https://designo-api.onrender.com/designo/loc1.png" />
         <p className="tracking-[5px] text-[#333136] text-center font-medium	">
           CANADA
         </p>
@@ -13,7 +13,7 @@ export default function Countries() {
         </button>
       </div>
       <div className="flex flex-col m-auto w-[50%] gap-3 md:w-[30%]">
-        <img src="http://localhost:5000/designo/loc2.png" />
+        <img src="https://designo-api.onrender.com/designo/loc2.png" />
         <p className="tracking-[5px] text-[#333136] text-center font-medium	">
           AUSTRALIA
         </p>
@@ -22,7 +22,7 @@ export default function Countries() {
         </button>
       </div>
       <div className="flex flex-col m-auto w-[50%] gap-3 md:w-[30%]">
-        <img src="http://localhost:5000/designo/loc3.png" />
+        <img src="https://designo-api.onrender.com/designo/loc3.png" />
         <p className="tracking-[5px] text-[#333136] text-center font-medium	">
           UNITED KINGDOM
         </p>

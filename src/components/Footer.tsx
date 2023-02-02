@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="flex flex-col gap-6 md:flex-row md:justify-between">
           <div className="flex gap-4 justify-center">
             <div>
-              <img src="http://localhost:5000/designo/logo.png" />
+              <img src="https://designo-api.onrender.com/designo/logo.png" />
             </div>
             <Link to="/">
               {" "}
@@ -60,7 +60,7 @@ export default function Footer() {
           <div>
             <img
               className="m-auto"
-              src="http://localhost:5000/designo/icons.png"
+              src="https://designo-api.onrender.com/designo/icons.png"
             />
           </div>
         </div>

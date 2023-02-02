@@ -7,11 +7,11 @@ export default function About() {
       <div className="xl:flex">
         <img
           className="md:hidden w-full"
-          src="http://localhost:5000/designo/about1.png"
+          src="https://designo-api.onrender.com/designo/about1.png"
         />
         <img
           className="hidden md:block md:w-full xl:order-2 xl:w-[50%]"
-          src="http://localhost:5000/designo/about1tab.png"
+          src="https://designo-api.onrender.com/designo/about1tab.png"
         />
         <div className="bg-[#E7816B] pt-16 pb-10 md:px-[20%] xl:order-1 xl:px-10 xl:py-20">
           <h1 className="text-center text-white text-3xl font-normal xl:text-left">
@@ -29,11 +29,11 @@ export default function About() {
       <div className="xl:flex xl:mt-[10%]">
         <img
           className="md:hidden w-full"
-          src="http://localhost:5000/designo/about2.png"
+          src="https://designo-api.onrender.com/designo/about2.png"
         />
         <img
           className="hidden md:block md:w-full  xl:w-[50%]"
-          src="http://localhost:5000/designo/about2tab.png"
+          src="https://designo-api.onrender.com/designo/about2tab.png"
         />
         <div className="bg-[#FDF3F0] p-8 md:px-[20%] xl:px-10 xl:py-20">
           <h1 className="text-[#E7816B] text-3xl font-normal text-center xl:text-left">
@@ -57,11 +57,11 @@ export default function About() {
       <div className="xl:flex xl:mb-[20%]">
         <img
           className="md:hidden w-full"
-          src="http://localhost:5000/designo/about3.png"
+          src="https://designo-api.onrender.com/designo/about3.png"
         />
         <img
           className="hidden md:block md:w-full xl:order-2  xl:w-[50%]"
-          src="http://localhost:5000/designo/about3tab.png"
+          src="https://designo-api.onrender.com/designo/about3tab.png"
         />
         <div className="bg-[#FDF3F0] p-8 md:px-[20%] xl:px-10 xl:py-20 xl:order-1">
           <h1 className="text-[#E7816B] text-3xl font-normal text-center xl:text-left">

@@ -6,7 +6,7 @@ export default function Location() {
       <div className="xl:flex xl:gap-10">
         <img
           className="w-full md:rounded-xl xl:w-[75%] xl:order-2"
-          src="http://localhost:5000/designo/canada.png"
+          src="https://designo-api.onrender.com/designo/canada.png"
         />
         <div className="bg-[#FDF3F0] flex flex-col gap-7 p-28 md:justify-between md:flex-row md:rounded-xl md:mt-[5%] xl:mt-0 xl:order-1">
           <div>
@@ -32,7 +32,7 @@ export default function Location() {
       <div className="xl:flex xl:gap-10">
         <img
           className="w-full md:rounded-xl xl:w-[75%] "
-          src="http://localhost:5000/designo/australia.png"
+          src="https://designo-api.onrender.com/designo/australia.png"
         />
         <div className="bg-[#FDF3F0] flex flex-col gap-7 p-28 md:justify-between md:flex-row md:rounded-xl md:mt-[5%] xl:mt-0 ">
           <div>
@@ -58,7 +58,7 @@ export default function Location() {
       <div className="xl:flex xl:gap-10">
         <img
           className="w-full md:rounded-xl xl:w-[75%] xl:order-2"
-          src="http://localhost:5000/designo/uk.png"
+          src="https://designo-api.onrender.com/designo/uk.png"
         />
         <div className="bg-[#FDF3F0] flex flex-col gap-7 p-28 md:justify-between md:flex-row md:rounded-xl md:mt-[5%] xl:mt-0 xl:order-1">
           <div>

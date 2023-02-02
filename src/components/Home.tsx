@@ -21,7 +21,7 @@ export default function Home() {
         <div>
           <img
             className="m-auto"
-            src="http://localhost:5000/designo/image.png"
+            src="https://designo-api.onrender.com/designo/image.png"
           />
         </div>
       </div>
@@ -32,7 +32,7 @@ export default function Home() {
           <div>
             <img
               className="m-auto"
-              src="http://localhost:5000/designo/image1.png"
+              src="https://designo-api.onrender.com/designo/image1.png"
             />
           </div>
           <div>
@@ -51,7 +51,7 @@ export default function Home() {
           <div>
             <img
               className="m-auto"
-              src="http://localhost:5000/designo/image2.png"
+              src="https://designo-api.onrender.com/designo/image2.png"
             />
           </div>
           <div>
@@ -70,7 +70,7 @@ export default function Home() {
           <div>
             <img
               className="m-auto"
-              src="http://localhost:5000/designo/image3.png"
+              src="https://designo-api.onrender.com/designo/image3.png"
             />
           </div>
           <div>

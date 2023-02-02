@@ -10,7 +10,7 @@ export default function Nav() {
       <nav className="flex justify-between p-6 md:px-9 py-12 xl:py-[60px] xl:px-[170px]">
         <div className="flex gap-4">
           <div>
-            <img src="http://localhost:5000/designo/logo.png" />
+            <img src="https://designo-api.onrender.com/designo/logo.png" />
           </div>
           <Link to="/">
             <h1 className="text-[#333136] tracking-[5px] font-bold">DESIGNO</h1>
@@ -19,7 +19,7 @@ export default function Nav() {
         <div className="md:hidden">
           <img
             onClick={() => setNav(!nav)}
-            src={`http://localhost:5000/designo/${
+            src={`https://designo-api.onrender.com/designo/${
               nav ? "icon-hamburger.svg" : "icon-close.svg"
             }`}
           />
