@@ -1,5 +1,6 @@
 import React from "react";
 import Category from "./Category";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -14,9 +15,11 @@ export default function Home() {
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
-          <button className="bg-white text-black rounded-lg p-3 flex m-auto xl:m-0 xl:w-[35%]">
-            LEARN MORE
-          </button>
+          <Link to="/about">
+            <button className="bg-white text-black rounded-lg p-3 flex m-auto xl:m-0 xl:w-[35%]">
+              LEARN MORE
+            </button>{" "}
+          </Link>
         </div>
         <div>
           <img

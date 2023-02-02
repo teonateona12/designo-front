@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Countries() {
   return (
@@ -8,27 +9,33 @@ export default function Countries() {
         <p className="tracking-[5px] text-[#333136] text-center font-medium	">
           CANADA
         </p>
-        <button className="bg-[#E7816B] font-medium py-2 rounded-lg text-white">
-          SEE LOCATION
-        </button>
+        <Link to="/location">
+          <button className="bg-[#E7816B] font-medium py-2 rounded-lg text-white">
+            SEE LOCATION
+          </button>
+        </Link>
       </div>
       <div className="flex flex-col m-auto w-[50%] gap-3 md:w-[30%]">
         <img src="https://designo-api.onrender.com/designo/loc2.png" />
         <p className="tracking-[5px] text-[#333136] text-center font-medium	">
           AUSTRALIA
         </p>
-        <button className="bg-[#E7816B] font-medium py-2 rounded-lg text-white">
-          SEE LOCATION
-        </button>
+        <Link to="/location">
+          <button className="bg-[#E7816B] font-medium py-2 rounded-lg text-white">
+            SEE LOCATION
+          </button>
+        </Link>
       </div>
       <div className="flex flex-col m-auto w-[50%] gap-3 md:w-[30%]">
         <img src="https://designo-api.onrender.com/designo/loc3.png" />
         <p className="tracking-[5px] text-[#333136] text-center font-medium	">
           UNITED KINGDOM
         </p>
-        <button className="bg-[#E7816B] font-medium py-2 rounded-lg text-white">
-          SEE LOCATION
-        </button>
+        <Link to="/location">
+          <button className="bg-[#E7816B] font-medium py-2 rounded-lg text-white">
+            SEE LOCATION
+          </button>
+        </Link>
       </div>
     </div>
   );
