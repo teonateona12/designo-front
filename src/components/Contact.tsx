@@ -4,6 +4,7 @@ import axios from "axios";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
+import { useState } from "react";
 
 const personSchema = z.object({
   name: z.string(),
@@ -24,6 +25,7 @@ const validationSchema = z.object({
 type ValidationSchema = z.infer<typeof validationSchema>;
 
 export default function Contact() {
+  const [sendSucc, setSendSucc] = useState<boolean>(false);
   const {
     register,
     handleSubmit,
@@ -44,6 +46,8 @@ export default function Contact() {
           email,
         }
       );
+
+      setSendSucc(true);
     } catch (error) {
       console.log(error);
     }
@@ -106,6 +110,9 @@ export default function Contact() {
           <button className="bg-white py-3 px-10 flex m-auto mt-[10%] rounded-lg md:m-0 md:mt-[10%]">
             SUBMIT
           </button>
+          {sendSucc && (
+            <h2 className="font-bold ">Your Mesaage Send Succesfully</h2>
+          )}
         </form>
       </div>
       <Countries />
